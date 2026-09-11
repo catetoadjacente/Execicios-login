@@ -7,7 +7,6 @@
 }
 img{
     display: block;
-    max-width: 100%;
 }
 
 
@@ -32,7 +31,6 @@ img{
 .bg-image{
     width: 100%;
     height: 100vh;
-    min-width: 100%;
     object-fit: cover;
 }
 .esq{
@@ -42,16 +40,12 @@ img{
     justify-content: center;
     align-items: center;
 }
-
 .login{
     display: flex;
     flex-direction: column;
     align-items: center;
     height:60%;
     width:40%;
-    border-color: #1331A1;
-    border-style: solid;
-    border-width: 6px;
 }
 .header{
     display: flex;
@@ -59,5 +53,63 @@ img{
     align-items: center;
     justify-content: space-evenly;
     width: 60%;
-    height: 36%;
+    height: 32%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+input::placeholder{
+    color:black;
+}
+.grupo-input{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.grupo-input label{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.grupo-input input{
+    padding: 10px 12px;
+    border: 2px solid #1331A1;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-senha{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-senha input{
+    width: 100%;
+    padding-right: 40px;
+}
+
+.icone-olho{
+    position: absolute;
+    right: 12px;
+    width: 20px;
+    cursor: pointer;
+}
+.entrar{
+    background-color: #1331A1;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+    width: 60%;
 }
