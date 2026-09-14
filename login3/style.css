@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jockey One", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.bg::before{
+    content: "";
+    background-image: url(../TelaLogin/Fundo\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: blur(8px);
+    transform: scale(1.05);
+    opacity: 70%;
+}
+.container{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 85%;
+}
+.logo{
+    font-size: 4em;
+    gap: 30px;
+    color:#FEFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    background-color: white;
+    border-top-left-radius: 50px;
+}
+.formulario-container{
+    margin-top: 5%;
+    gap:35px;
+    width: 35%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grupo-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:6px;
+}
+.grupo-input label{
+    color: #1331A1;
+    font-weight:500;
+    font-size: 1.25em;
+}
+.grupo-input input{
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #1331A1;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+}
+.entrar{
+    background-color: #1331A1;
+    width: 35%;
+    height: 10%;
+    color: #fff;
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.linha{
+    width: 70%;
+    height: 3px;
+    background-color: #dfdfdf;
+    border-radius: 15PX;
+    margin-bottom: 20px;
+}
+.rodape{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
