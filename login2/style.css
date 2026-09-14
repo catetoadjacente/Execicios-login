@@ -10,14 +10,22 @@
 .bg{
     width: 100vw;
     height: 100vh;
-    background-image: url(../TelaLogin/Fundo\ 3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.bg::before{
+    content: "";
+    background-image: url(../TelaLogin/Fundo\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(5px);
 }
 .formulario{
     width:25vw ;
@@ -27,6 +35,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 10px 5px 10px rgb(5, 5, 5);
+    position: relative;
+    
 }
 .header{
     display: flex;
@@ -98,6 +109,14 @@
     border-radius: 15PX;
     margin-bottom: 20px;
 }
-.esqueceu{
+.esqueceu h3{
     color:black
+}
+.rodape{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
 }
