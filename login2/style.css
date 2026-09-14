@@ -2,9 +2,11 @@
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
     color: #1331A1;
 }
+
 .bg{
     width: 100vw;
     height: 100vh;
@@ -12,5 +14,48 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width:25vw ;
+    height:80vh;
+    background-color: white;
+    border-radius: 26px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+.grupo-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+}
+.grupo-input label{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.grupo-input input{
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #1331A1;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
 }
