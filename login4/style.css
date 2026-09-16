@@ -44,7 +44,7 @@
 .formulario{
     width: 65%;
     height: 60%;
-    gap:50px;
+
 }
 .grupo-input{
 
@@ -52,4 +52,14 @@
     flex-direction: column;
     width: 100%;
     gap:6px;
+}
+.entrar{
+    align-self: flex-END;
+    background-color: #1331A1;
+    border-radius: 10%;
+    width:20% ;
+}
+.rodape{
+    height: 2%;
+    background-color: #F2F2F2;
 }

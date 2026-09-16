@@ -14,16 +14,21 @@
 </head>
 <body>
     <main class="fundo">
-        <div class="login d-flex justify-content-center align-items-center">
-            <form class="formulario d-flex flex-column justify-content-center align-items-start">
-                <div class="grupo-input">
-                    <label for="login">Email ou CPF</label>
-                    <input type="email" name="login" id="login">
+        <div class="login d-flex flex-column justify-content-center align-items-center">
+           <form class="formulario d-flex flex-column " action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="email ou cpf" name="email">
                 </div>
-                <div class="grupo-input">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha">
+                <div class="mb-3">
+                    <div class="input">
+                        <label for="senha" class="form-label">senha:</label>
+                        <input type="password" class="form-control" id="senha" placeholder="senha" name="senha">
+                    </div>
                 </div>
+                <button type="submit" class="entrar rounded-pill btn btn-primary">Entrar</button>
+                <div class="rodape mt-3 rounded-pill w-100"></div>                
+                <h3 class="align-self-end mt-4">Esqueci a senha</h3>
             </form>
         </div>
 
