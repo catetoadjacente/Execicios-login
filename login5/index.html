@@ -15,11 +15,29 @@
     
     <img src="../TelaLogin/Fundo 3.png"  class="fundo max-vw-100 vh-100" alt="">
 
-     <div class="login d-flex">
-        <div class="esq"></div>
-        <div class="dir"></div>
-
-    </div>
+     <div class="login d-flex flex-row">
+        <div class="esq d-flex flex-column justify-content-center align-items-center">
+            <img src="../TelaLogin/Senac branco.png" alt="" class="logo">
+            <h3>Music Hall</h3>
+        </div>
+        <div class="dir d-flex flex-column align-items-center justify-content-center ">
+             <form class="formulario d-flex flex-column justify-content-start" >
+                <div class="mb-3">
+                    <label for="Login">Login</label>
+                    <input type="email" class="form-control" id="Login" placeholder="Email ou cpf">
+                </div>
+                <div class="mb-3">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="Senha" placeholder="Senha">
+                </div>
+                <div class="rodape d-flex flex-column align-items-center">
+                    <button type="submit" class="entrar btn btn-primary rounded-pill">Entrar</button>
+                    <div class="linha"></div>
+                    <h4>Esqueci a senha</h4>
+                </div>
+                
+             </form>
+        </div>
 
     </main>
 </body>

@@ -2,6 +2,7 @@
     margin: 0;
     padding:0 ;
     box-sizing: border-box;
+    font-family: "Jockey One"
 }
 body{
     background-color: white;
@@ -12,7 +13,7 @@ main{
     min-height: 100vh;
 }
 
-img{
+.fundo{
     display: block;
     object-fit: cover;
   height: 100vh;
@@ -23,7 +24,42 @@ img{
 .login{
 position: absolute;
 z-index: 1;
-height: 40vh;
-width: 40vw;
-background-color: greenyellow;
+height: 50vh;
+width: 45vw;
+background-color: #ffffff;
+}
+.esq{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient( to bottom,#F31366, #BC0C4D);
+    color: white;
+    gap:20px;
+}
+.logo{
+    max-width: 65%;
+}
+.dir{
+    width: 60%;
+    height: 100%;
+}
+.formulario{
+    height: 100%;
+    width: 60%;
+    padding-top: 15%;
+    gap:20px;
+}
+.entrar{
+    background-color: #1331A1;
+    width: 35%;
+}
+.rodape{
+    height: 40%;
+    gap: 10px
+    ;
+}
+.linha{
+    width: 100%;
+    height: 3%;
+    background-color: #F2F2F2;
+    margin-top: 10px;
 }
