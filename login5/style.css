@@ -13,13 +13,16 @@ main{
 }
 
 img{
+    display: block;
     object-fit: cover;
   height: 100vh;
   max-width: 100vw;
   filter: blur(18px);
   opacity: 75%;
 }
-.container{
+.login{
+position: absolute;
+z-index: 1;
 height: 40vh;
 width: 40vw;
 background-color: greenyellow;
