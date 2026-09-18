@@ -106,11 +106,3 @@ background-color: #ffffff;
 .borda{
     border-color: #1331A1;
 }
-div.mb-3{
-    position: relative;
-}
-.olho{
-    position: absolute;
-    right: 5%;
-    top: 55%
-}
