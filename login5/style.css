@@ -6,6 +6,7 @@
 }
 body{
     background-color: white;
+    overflow: hidden;
 }
 
 main{
@@ -84,11 +85,11 @@ background-color: #ffffff;
     background-color: #BC0C4D;
     position: absolute;
 }
-.one{
+.um{
     top: -7%;
     left: 88%;
 }
-.two{
+.dois{
     bottom: 0;
     left: 0;
 }
