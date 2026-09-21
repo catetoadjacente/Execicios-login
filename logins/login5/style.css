@@ -112,5 +112,7 @@ div.mb-3{
 .olho{
     position: absolute;
     right: 5%;
-    top: 55%
+    top: 50%;
+    border:none;
+    background-color: transparent;
 }
