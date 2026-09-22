@@ -78,6 +78,9 @@ background-color: #ffffff;
     text-decoration: none;
     color: black;
 }
+.esqueci:hover{
+    color: #1331A1;
+}
 .circulo{
     height:33% ;
     width:17% ;
@@ -115,4 +118,7 @@ div.mb-3{
     top: 50%;
     border:none;
     background-color: transparent;
+}
+input:user-invalid{
+    border-color: red;
 }

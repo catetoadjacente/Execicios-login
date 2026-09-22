@@ -29,14 +29,14 @@
              <form class="formulario d-flex flex-column justify-content-start" >
                 <div class="mb-3">
                     <label for="Login">Login</label>
-                    <input type="email" class="form-control borda" id="Login" placeholder="Email ou cpf">
+                    <input type="email" class="form-control borda" id="Login" placeholder="Email ou cpf" required>
                 </div>
                 <div class="mb-3">
-                    <button type="button" class="olho">
+                    <button type="button" class="olho" onclick="mostrar_senha()">
                         <img src="../../TelaLogin/Eye.png" alt="" >
                     </button>
                     <label for="senha" >Senha</label>
-                    <input type="password" class="form-control borda" id="Senha" placeholder="Senha">
+                    <input type="password" class="form-control borda" id="Senha" placeholder="Senha" required minlength="8">
                 </div>
                 <div class="rodape d-flex flex-column align-items-center">
                     <button type="submit" class="entrar btn btn-primary rounded-pill">Entrar</button>
